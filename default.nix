@@ -6,7 +6,7 @@ mkDerivation {
   version = "0.1.0.0";
   src = ./.;
   libraryHaskellDepends = [
-    base bytestring conduit exceptions hspec lens resourcet
+    base bytestring conduit exceptions lens resourcet
   ];
   libraryPkgconfigDepends = [ libopus ];
   testHaskellDepends = [

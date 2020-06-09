@@ -31,8 +31,7 @@ library
                        resourcet,
                        bytestring,
                        conduit,
-                       lens,
-                       hspec
+                       lens
 
 source-repository head
   type:     git
